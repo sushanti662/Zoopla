@@ -91,7 +91,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 15114975700,
+  "duration": 15373765300,
   "status": "passed"
 });
 formatter.scenario({
@@ -172,7 +172,7 @@ formatter.match({
   "location": "Stepdefinition.the_Zoopla_application_is_launched_for(String)"
 });
 formatter.result({
-  "duration": 212412600,
+  "duration": 161660000,
   "status": "passed"
 });
 formatter.match({
@@ -185,7 +185,7 @@ formatter.match({
   "location": "Stepdefinition.verify_the_home_page_using(String)"
 });
 formatter.result({
-  "duration": 89091100,
+  "duration": 56152400,
   "status": "passed"
 });
 formatter.match({
@@ -198,7 +198,7 @@ formatter.match({
   "location": "Stepdefinition.enter_the_in_searchbox_and_press_the_search_button(String)"
 });
 formatter.result({
-  "duration": 13365370600,
+  "duration": 15666701600,
   "status": "passed"
 });
 formatter.match({
@@ -211,35 +211,35 @@ formatter.match({
   "location": "Stepdefinition.validate_list_of_properties_page(String)"
 });
 formatter.result({
-  "duration": 18286200,
+  "duration": 43349900,
   "status": "passed"
 });
 formatter.match({
   "location": "Stepdefinition.print_all_the_price_values_in_sorted_order_descending_order_on_the_console()"
 });
 formatter.result({
-  "duration": 5863801200,
+  "duration": 6321331300,
   "status": "passed"
 });
 formatter.match({
   "location": "Stepdefinition.select_the_fifth_property_on_the_list_of_properties()"
 });
 formatter.result({
-  "duration": 6798090100,
+  "duration": 6220804700,
   "status": "passed"
 });
 formatter.match({
   "location": "Stepdefinition.verify_the_property_list_page_with_logo_agentname_and_telephone()"
 });
 formatter.result({
-  "duration": 77946200,
+  "duration": 524081900,
   "status": "passed"
 });
 formatter.match({
   "location": "Stepdefinition.click_on_the_agentname_link_to_get_into_agents_page()"
 });
 formatter.result({
-  "duration": 9816392900,
+  "duration": 11159239800,
   "status": "passed"
 });
 formatter.match({
@@ -252,11 +252,11 @@ formatter.match({
   "location": "Stepdefinition.verify_the_properties_listed_belong_to_the_same_mentioned_on_the_agents_page(String)"
 });
 formatter.result({
-  "duration": 742461200,
+  "duration": 681402900,
   "status": "passed"
 });
 formatter.after({
-  "duration": 687197200,
+  "duration": 4689681900,
   "status": "passed"
 });
 });

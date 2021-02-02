@@ -1,11 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="0" passed="0">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="16" started-at="2021-01-31T00:21:43Z" finished-at="2021-01-31T00:21:43Z">
+  <suite name="Suite" duration-ms="62002" started-at="2021-02-01T23:41:27Z" finished-at="2021-02-01T23:42:29Z">
     <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runnerfile.Runnerfile@6af93788]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
     </groups>
-    <test name="Test" duration-ms="16" started-at="2021-01-31T00:21:43Z" finished-at="2021-01-31T00:21:43Z">
+    <test name="Test" duration-ms="62002" started-at="2021-02-01T23:41:27Z" finished-at="2021-02-01T23:42:29Z">
+      <class name="Runnerfile.Runnerfile">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Runnerfile.Runnerfile@6af93788]" name="setUpClass" is-config="true" duration-ms="475" started-at="2021-02-01T18:41:27Z" finished-at="2021-02-01T18:41:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runnerfile.Runnerfile@6af93788]" name="feature" duration-ms="61185" started-at="2021-02-01T18:41:28Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-02-01T18:42:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Zoopla Application]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Runnerfile.Runnerfile@6af93788]" name="tearDownClass" is-config="true" duration-ms="184" started-at="2021-02-01T18:42:29Z" finished-at="2021-02-01T18:42:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Runnerfile.Runnerfile -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

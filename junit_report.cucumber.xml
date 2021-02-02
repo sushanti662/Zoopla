@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="52.786025">
-<testcase classname="Zoopla Application" name="UseCase1" time="52.786025">
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="60.898172">
+<testcase classname="Zoopla Application" name="UseCase1" time="60.898172">
 <system-out><![CDATA[Given the Zoopla application is launched for "test1"........................passed
 Then verify the home page using "Zoopla > Search Property to Buy, Rent, House Prices, Estate Agents".passed
 When enter the "London" in searchbox and press the search button............passed

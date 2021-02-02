@@ -3,11 +3,12 @@ package Runnerfile;
 import org.junit.runner.RunWith;
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
+import cucumber.api.testng.AbstractTestNGCucumberTests;
 //import cucumber.api.testng.AbstractTestNGCucumberTests;
 
 
 
-@RunWith(Cucumber.class)
+//@RunWith(Cucumber.class)
 @CucumberOptions(features = "C:\\MyJavaProject\\JavaPrograms\\new_eclipse_workspace\\Zoopla\\src\\test\\resources\\Features\\Testcase1.feature",
                  glue = { "StepDefinations" },
                  plugin = {"pretty","html:test_output",
@@ -16,6 +17,6 @@ import cucumber.api.junit.Cucumber;
                  monochrome = true
                  )
 
-public class Runnerfile  {
+public class Runnerfile extends AbstractTestNGCucumberTests{
 
 }
