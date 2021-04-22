@@ -1,14 +1,45 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="60.898172">
-<testcase classname="Zoopla Application" name="UseCase1" time="60.898172">
-<system-out><![CDATA[Given the Zoopla application is launched for "test1"........................passed
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="57.356529">
+<testcase classname="Zoopla Application" name="UseCase1" time="57.356529">
+<failure message="org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id='search-input-location']&quot;}&#10;  (Session info: chrome=89.0.4389.128)&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'&#10;System info: host: 'DESKTOP-0QVDKC7', ip: '10.0.0.59', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}), userDataDir=C:\Users\swaru\AppData\Local\Temp\scoped_dir2728_810525274}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=XP, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:58363}, acceptInsecureCerts=false, browserVersion=89.0.4389.128, browserName=chrome, javascriptEnabled=true, platformName=XP, setWindowRect=true, webauthn:extension:largeBlob=true, webauthn:virtualAuthenticators=true}]&#10;Session ID: 0480bf16682bf354f0474e57efa91ee3&#10;*** Element info: {Using=xpath, value=//input[@id='search-input-location']}&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)&#13;&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#13;&#10;&#9;at java.lang.reflect.Constructor.newInstance(Unknown Source)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:518)&#13;&#10;&#9;at org.openqa.selenium.By$ByXPath.findElement(By.java:361)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)&#13;&#10;&#9;at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)&#13;&#10;&#9;at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)&#13;&#10;&#9;at com.sun.proxy.$Proxy20.sendKeys(Unknown Source)&#13;&#10;&#9;at PageObjects.PoHomePage.enterTextSearchBox(PoHomePage.java:35)&#13;&#10;&#9;at StepDefinations.Stepdefinition.enter_the_in_searchbox_and_press_the_search_button(Stepdefinition.java:41)&#13;&#10;&#9;at ✽.When enter the &quot;London&quot; in searchbox and press the search button(C:/MyJavaProject/JavaPrograms/new_eclipse_workspace/Zoopla/src/test/resources/Features/Testcase1.feature:7)&#13;&#10;"><![CDATA[Given the Zoopla application is launched for "test1"........................passed
 Then verify the home page using "Zoopla > Search Property to Buy, Rent, House Prices, Estate Agents".passed
-When enter the "London" in searchbox and press the search button............passed
-Then validate list of properties page "Property for Sale in London - Buy Properties in London - Zoopla".passed
-When print all the price values in sorted order(descending order) on the console.passed
-And select the fifth property on the list of properties.....................passed
-Then verify the property list page with logo,agentname and telephone........passed
-When click on the agentname link to get into agents page....................passed
-Then Verify the properties listed  belong to the same mentioned "Panther International Properties" on the agents page..passed
-]]></system-out>
+When enter the "London" in searchbox and press the search button............failed
+Then validate list of properties page "Property for Sale in London - Buy Properties in London - Zoopla".skipped
+When print all the price values in sorted order(descending order) on the console.skipped
+And select the fifth property on the list of properties.....................skipped
+Then verify the property list page with logo,agentname and telephone........skipped
+When click on the agentname link to get into agents page....................skipped
+Then Verify the properties listed  belong to the same mentioned "Panther International Properties" on the agents page..skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='search-input-location']"}
+  (Session info: chrome=89.0.4389.128)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'DESKTOP-0QVDKC7', ip: '10.0.0.59', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}), userDataDir=C:\Users\swaru\AppData\Local\Temp\scoped_dir2728_810525274}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=XP, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:58363}, acceptInsecureCerts=false, browserVersion=89.0.4389.128, browserName=chrome, javascriptEnabled=true, platformName=XP, setWindowRect=true, webauthn:extension:largeBlob=true, webauthn:virtualAuthenticators=true}]
+Session ID: 0480bf16682bf354f0474e57efa91ee3
+*** Element info: {Using=xpath, value=//input[@id='search-input-location']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:518)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy20.sendKeys(Unknown Source)
+	at PageObjects.PoHomePage.enterTextSearchBox(PoHomePage.java:35)
+	at StepDefinations.Stepdefinition.enter_the_in_searchbox_and_press_the_search_button(Stepdefinition.java:41)
+	at ✽.When enter the "London" in searchbox and press the search button(C:/MyJavaProject/JavaPrograms/new_eclipse_workspace/Zoopla/src/test/resources/Features/Testcase1.feature:7)
+]]></failure>
 </testcase>
 </testsuite>
