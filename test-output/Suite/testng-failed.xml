@@ -1,20 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="none">
-  <test name="Test">
+  <test thread-count="5" name="Test">
     <classes>
       <class name="Runnerfile.Runnerfile"/>
     </classes>
   </test> <!-- Test -->
-  <test name="Test(failed)" parallel="none">
-    <classes>
-      <class name="Runnerfile.Runnerfile">
-        <methods>
-          <include name="setUpClass"/>
-          <include name="feature" invocation-numbers="0"/>
-          <include name="tearDownClass"/>
-        </methods>
-      </class> <!-- Runnerfile.Runnerfile -->
-    </classes>
-  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

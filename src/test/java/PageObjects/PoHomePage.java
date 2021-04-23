@@ -18,7 +18,8 @@ public class PoHomePage extends Testbase {
 		PageFactory.initElements(driver, this);
 	}
 	//1 page
-	@FindBy(xpath = "//input[@id='search-input-location']")
+	//@FindBy(xpath = "//input[@id='search-input-location']")
+	@FindBy(xpath = "//input[@id='header-location']")
 	WebElement searchBox;
 	
 	@FindBy(xpath = "//button[@class='ui-button-secondary']")

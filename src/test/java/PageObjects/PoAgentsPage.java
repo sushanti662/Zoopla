@@ -11,7 +11,7 @@ import utilities.Testbase;
 //4th page
 public class PoAgentsPage extends Testbase {
 
-	@FindBy(xpath = "//h1[@class='bottom-half']//b[1]")
+	@FindBy(css= ".css-e13akx-Heading3-AgentHeading.e11937k16")
 	public WebElement agentPageName;
 
 	public PoAgentsPage(WebDriver driver) throws IOException {

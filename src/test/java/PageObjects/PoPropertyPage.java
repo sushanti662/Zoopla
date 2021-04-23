@@ -14,7 +14,7 @@ public class PoPropertyPage  extends Testbase{
 		PageFactory.initElements(driver, this);		
 	}
 	
-	@FindBy(xpath = "//h4[@class='ui-agent__name'][1]")
+	@FindBy(css= ".css-e13akx-Heading3-AgentHeading.e11937k16")
 	public WebElement agentName;
 	
 	public void clickOnAgentName() throws InterruptedException {
